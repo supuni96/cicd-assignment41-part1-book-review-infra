@@ -14,7 +14,7 @@ stages:
   - job: Terraform_Apply
     displayName: 'Terraform Apply'
     pool:
-      name: 'epicbook-agent-pool'
+      name: 'epicbook-agent-pool2'
     steps:
  
     # Not needed for hosted vm
